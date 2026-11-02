@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASS X UBAF</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+
+    <nav class="navbar topbar px-4">
+        <div class="d-flex gap-2">
+            <img src="./img/UBAF.png" alt="" class="nav-avatar">
+            <span class="navbar-brand text-white fw-bold">
+                <span class="brand-light">UBAF</span> Dummies Agency Center
+            </span>
+        </div>
+        <div class="admin-profile">
+            <h6 class="text-secondary">Made by</h6>
+            <div>
+                <span>Hauzan AK47</span>
+                <small>Operator</small>
+            </div>
+            <img src="./img/Hauzan.jpg" alt="" class="nav-avatar">
+        </div>
+    </nav>
+    
+    <div class="row text-white">
+
+        <aside class="sidebar col-lg-2 p-4">
+            <h5 class="menu-label">Menu</h5>
+            <a href="#" class="menu-link active nav-btn"><i class="bi bi-house-door"></i> Home</a>
+            <a href="about.html" class="menu-link nav-btn"><i class="bi bi-search"></i> About</a>
+            <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item nav-accordion">
+                    <h2 class="accordion-header" id="headingOne">
+                        <a href="members.html">
+                            <button class="accordion-button nav-accordion accordion-btn text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNav" aria-expanded="true" aria-controls="collapseNav">
+                                <i class="bi bi-people nav-btn"></i> Members
+                            </button>
+                        </a>
+                    </h2>
+                    <div id="collapseNav" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body nav-accordion d-flex flex-column">
+                            <a href="hauzan.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Hauzan</a>
+                            <a href="mikail.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Mikail</a>
+                            <a href="sajid.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Sajid</a>
+                            <a href="fathan.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Fathan</a>
+                            <a href="adib.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Adib</a>
+                            <a href="rafi.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Rafi</a>
+                            <a href="ihsan.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Ihsan</a>
+                            <a href="nadhif.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Nadhif</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        
+        <main class="col-lg-10 mt-3">
+            <div class="card p-4">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex gap-5">
+                        <div>
+                            <h1>Welcome!</h1>
+                            <h6>UBAF Dummies Agency Center</h6>
+                        </div>
+                        <h1 class="home-icon">👋</h1>
+                    </div>
+                    <img src="./img/UBAF.png" alt="" width="100px" height="100px" class="rounded-2">
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row mt-3 d-flex justify-content-between">
+                    <div class="card col-lg-3">
+                        <h4>Mafia: The Fullhouse</h4>
+                        <img src="./img/Mafia.png" alt="" class="card-img home-img">
+                    </div>
+                    <div class="card col-lg-4">
+                        <form action="https://formsubmit.co/ibvabohauzan@gmail.com" method="POST" class="panel text-center d-flex flex-column gap-4" id="idea-form">
+                            <h3>Give us your Idea!</h3>
+                            <div class="mb-3 d-flex justify-content-between gap-2">
+                                <div>
+                                    <label for="form-name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" name="Name" id="form-name" placeholder="Your Name"/>
+                                </div>
+                                <div>
+                                    <label for="form-theme" class="form-label">Theme</label>
+                                    <select class="form-select form-select" name="Theme" id="form-theme">
+                                        <option value="" selected>Select Theme</option>
+                                        <option value="Mafia: The Fullhouse">Mafia: The Fullhouse</option>
+                                        <option value="INOvation">INOvation</option>
+                                        <option value="New Game">New Game</option>
+                                        <option value="Info Website">Add Info to Website</option>
+                                        <option value="Others">Others</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="form-idea" class="form-label">Idea</label>
+                                <input type="text" class="form-control" name="Idea" id="form-idea" placeholder="Your Idea"/>
+                            </div>
+                            <button class="btn btn-submit" type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="card col-lg-3">
+                        <h4>INOvation</h4>
+                        <img src="./img/Ino.png" alt="" class="card-img home-img">
+                    </div>
+                </div>
+            </div>
+        </main>
+            
+    </div>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
