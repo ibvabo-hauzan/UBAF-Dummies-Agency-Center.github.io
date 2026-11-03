@@ -69,6 +69,9 @@ body{
     background-color: transparent;
     border: none;
 }
+.nav-accordion h2 a{
+    text-decoration: none;
+}
 .accordion-btn:not(.collapsed){
     background-color: transparent;
     box-shadow: none;
@@ -123,13 +126,36 @@ body{
 }
 
 /* style-about */
-.about-card{
+.activity-card{
+    width: 24%;
+}
+.history-card{
     width: 33%;
+}
+.badge-goon{
+    background-color: #cd5a5a;
+    border-radius: 100px;
+}
+.badge-dick{
+    background-color: #84cd5a;
+    border-radius: 100px;
+}
+.badge-damn{
+    background-color: #5ab8cd;
+    border-radius: 100px;
+}
+.badge-cunt{
+    background-color: #9b5acd;
+    border-radius: 100px;
 }
 
 /* style-members */
 .badge-ceo{
     background-color: slateblue;
+    border-radius: 100px;
+}
+.badge-ai{
+    background-color: #5ac0cd;
     border-radius: 100px;
 }
 .badge-ope{
