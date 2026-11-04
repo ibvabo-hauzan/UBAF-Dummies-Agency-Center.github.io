@@ -1,14 +1,5 @@
-:root{
-    --bgGradient1: #251145;
-    --bgGradient2: #141454;
-    transition: 0.5s;
-}
-.bg-animate{
-    --bgGradient1: #000044;
-    --bgGradient2: #1a0044;
-}
 body{
-    background-image: linear-gradient(to top, var(--bgGradient1), var(--bgGradient2));
+    background-image: linear-gradient(to top, #150036, #000049);
     overflow-x: hidden;
 }
 
@@ -69,6 +60,9 @@ body{
     background-color: transparent;
     border: none;
 }
+.nav-accordion h5{
+    color: white;
+}
 .nav-accordion h2 a{
     text-decoration: none;
 }
@@ -91,7 +85,7 @@ body{
     background-color: blue;
 }
 .card{
-    background-image: linear-gradient(to top, midnightblue, darkblue);
+    background-image: linear-gradient(45deg, #200070, #000070, #002070, #004070);
     padding: 10px;
     border: none;
     border-radius: 12px;
@@ -186,32 +180,30 @@ body{
 .rule-card{
     width: 350px;
 }
+.strength-card h6, .weakness-card h6, .objective-card h6{
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+}
 .strength-card{
+    color: lightcoral;
     background-image: none;
     background-color: #ff000020;
     border: 2px solid red;
     width: 200px;
 }
-.strength-card h5, .strength-card p{
-    color: lightcoral;
-}
 .weakness-card{
+    color: lightskyblue;
     background-image: none;
     background-color: #0000ff20;
     border: 2px solid blue;
     width: 200px;
 }
-.weakness-card h5, .weakness-card p{
-    color: lightskyblue;
-}
 .objective-card{
+    color: lightyellow;
     background-image: none;
     background-color: #ffff0020;
     border: 2px solid yellow;
     width: 200px;
-}
-.objective-card h5, .objective-card p{
-    color: lightyellow;
 }
 .creations-table{
     padding: 0;
@@ -231,4 +223,12 @@ body{
 .badge-web{
     text-decoration: none;
     background-color: #00a0ff;
+}
+
+/* JS class */
+.rainbow{
+    background: linear-gradient(45deg, #ff0400, #ff0055, #5d00ff, #008cff, #00e1ff, #00ff0d, #eaff00, #ff9d00, #ff3c00);
+}
+.dark-rainbow{
+    background: linear-gradient(45deg, #b00300, #b0003b, #4100b0, #0061b0, #009bb0, #00b009, #a1b000, #b06d00, #b02900);
 }
