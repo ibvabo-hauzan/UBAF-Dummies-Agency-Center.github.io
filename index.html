@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <nav class="navbar topbar px-4">
+    <nav class="navbar topbar px-4 sticky-top">
         <div class="d-flex gap-2">
             <img src="./img/UBAF.png" alt="" class="nav-avatar">
             <span class="navbar-brand text-white fw-bold">
@@ -18,9 +18,9 @@
             </span>
         </div>
         <div class="admin-profile">
-            <h6 class="text-secondary">Made by</h6>
+            <h6>Made by</h6>
             <div>
-                <span>Hauzan AK47</span>
+                <span>Ibvabo AK47</span>
                 <small>Operator</small>
             </div>
             <img src="./img/Hauzan.jpg" alt="HA" class="nav-avatar">
@@ -30,7 +30,7 @@
     <div class="row text-white">
 
         <aside class="sidebar col-lg-2 p-4">
-            <h5 class="menu-label">Menu</h5>
+            <h4 class="menu-label">Menu</h4>
             <a href="#" class="menu-link active nav-btn"><i class="bi bi-house-door"></i> Home</a>
             <a href="about.html" class="menu-link nav-btn"><i class="bi bi-search"></i> About</a>
             <div class="accordion accordion-flush" id="accordionExample">
@@ -48,6 +48,7 @@
                             <a href="hauzan.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Hauzan <span class="badge badge-ope">Oper...</span></a>
                             <a href="sajid.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Sajid <span class="badge badge-big">Biggest ...</span></a>
                             <h5 class="mt-3">X RPL B</h5>
+                            <a href="arka.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Arka <span class="badge badge-gla">Glass.........</span></a>
                             <a href="fathan.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Fathan <span class="badge badge-str">Street...</span></a>
                             <a href="ihsan.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Ihsan <span class="badge badge-ill">Illustrat...</span></a>
                             <a href="mikail.html" class="menu-link nav-btn"><i class="bi bi-person"></i> Mikail <span class="badge badge-ceo">CEO........</span></a>
@@ -63,53 +64,55 @@
         
         <main class="col-lg-10 mt-3">
             <div class="card p-4">
-                <div class="d-flex justify-content-between">
-                    <div class="d-flex gap-5">
-                        <div>
-                            <h1>Welcome!</h1>
-                            <h6>UBAF Dummies Agency Center</h6>
+                <div class="card in-card">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex gap-5">
+                            <div>
+                                <h1>Welcome!</h1>
+                                <h6>UBAF Dummies Agency Center</h6>
+                            </div>
+                            <h1 class="home-icon">👋</h1>
                         </div>
-                        <h1 class="home-icon">👋</h1>
+                        <img src="./img/UBAF.png" alt="" width="100px" height="100px" class="rounded-2">
                     </div>
-                    <img src="./img/UBAF.png" alt="" width="100px" height="100px" class="rounded-2">
                 </div>
-            </div>
-            <div class="container mt-5">
-                <div class="row mt-3 d-flex justify-content-between">
-                    <div class="card col-lg-3">
-                        <h4>Mafia: The Fullhouse</h4>
-                        <img src="./img/Mafia.png" alt="" class="card-img home-img">
-                    </div>
-                    <div class="card col-lg-4">
-                        <form action="https://formsubmit.co/ibvabohauzan@gmail.com" method="POST" class="panel text-center d-flex flex-column gap-4" id="idea-form">
-                            <h3>Give us your Idea!</h3>
-                            <div class="mb-3 d-flex justify-content-between gap-2">
-                                <div>
-                                    <label for="form-name" class="form-label">Name</label>
-                                    <input type="text" class="form-control" name="Name" id="form-name" placeholder="Your Name"/>
+                <div class="container mt-5">
+                    <div class="row mt-3 d-flex justify-content-between">
+                        <div class="card in-card col-lg-3">
+                            <h4>Mafia: The Fullhouse</h4>
+                            <img src="./img/Mafia.png" alt="" class="card-img home-img">
+                        </div>
+                        <div class="card in-card col-lg-4">
+                            <form action="https://formsubmit.co/ibvabohauzan@gmail.com" method="POST" class="panel text-center d-flex flex-column gap-4" id="idea-form">
+                                <h3>Give us your Idea!</h3>
+                                <div class="mb-3 d-flex justify-content-between gap-2">
+                                    <div>
+                                        <label for="form-name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" name="Name" id="form-name" placeholder="Your Name"/>
+                                    </div>
+                                    <div>
+                                        <label for="form-theme" class="form-label">Theme</label>
+                                        <select class="form-select" name="Theme" id="form-theme">
+                                            <option value="" selected>Select Theme</option>
+                                            <option value="Mafia: The Fullhouse">Mafia: The Fullhouse</option>
+                                            <option value="INOvation">INOvation</option>
+                                            <option value="New Game">New Game</option>
+                                            <option value="Info Website">Add Info to Website</option>
+                                            <option value="Others">Others</option>
+                                        </select>
+                                    </div>
                                 </div>
-                                <div>
-                                    <label for="form-theme" class="form-label">Theme</label>
-                                    <select class="form-select form-select" name="Theme" id="form-theme">
-                                        <option value="" selected>Select Theme</option>
-                                        <option value="Mafia: The Fullhouse">Mafia: The Fullhouse</option>
-                                        <option value="INOvation">INOvation</option>
-                                        <option value="New Game">New Game</option>
-                                        <option value="Info Website">Add Info to Website</option>
-                                        <option value="Others">Others</option>
-                                    </select>
+                                <div class="mb-3">
+                                    <label for="form-idea" class="form-label">Idea</label>
+                                    <input type="text" class="form-control" name="Idea" id="form-idea" placeholder="Your Idea"/>
                                 </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="form-idea" class="form-label">Idea</label>
-                                <input type="text" class="form-control" name="Idea" id="form-idea" placeholder="Your Idea"/>
-                            </div>
-                            <button class="btn btn-submit" type="submit">Submit</button>
-                        </form>
-                    </div>
-                    <div class="card col-lg-3">
-                        <h4>INOvation</h4>
-                        <img src="./img/Ino.png" alt="" class="card-img home-img">
+                                <button class="btn btn-submit" type="submit">Submit</button>
+                            </form>
+                        </div>
+                        <div class="card in-card col-lg-3">
+                            <h4>INOvation</h4>
+                            <img src="./img/Ino.png" alt="" class="card-img home-img">
+                        </div>
                     </div>
                 </div>
             </div>
